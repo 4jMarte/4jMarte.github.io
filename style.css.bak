@@ -914,7 +914,7 @@ height: 400px;
 }
 #Contacts
 {
-	background-image: url(images/background2.png);	
+	background-image: url(images/background3.PNG);	
 	background-size: 100% ;
 	background-repeat: no-repeat;
 position: relative;
