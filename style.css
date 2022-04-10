@@ -747,7 +747,7 @@ padding-top: 1%;
 /*for everything in projects section of website*/
 #projects
 {
-	background-image: url(images/background3.png);
+	background-image: url(images/background3.PNG);
 	 background-size: 100% ;
 	background-repeat: no-repeat;	 /*the original image is small so it repeats, this prevents it from happening*/
 	border-bottom: 5px solid black;
@@ -933,4 +933,5 @@ transform: translate(-50%, -50%);
 {
 	border-style: dotted;
 }
+
 
