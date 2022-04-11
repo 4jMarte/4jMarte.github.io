@@ -928,6 +928,8 @@ position: absolute;
 	left: 50%;
 text-align: center;
 transform: translate(-50%, -50%);
+text-decoration: none; /*this removes the weird purple colour between the 2 logos*/
+
 }
 #socials
 {
