@@ -879,32 +879,7 @@ font-variant: normal;
 
 }
 
-#4jmarteEmail
-{
-	position: relative; 
-	
-    top: 15%;
-	font-size: 100px;	
 
-  display: flex;
-	justify-content: center;
-
-    color: black; 
-	z-index: 999;
-}
-#4jmarteFBLI
-{
-	position: absolute; 
-	
-    top: 15%;
-	font-size: 50px;	
-
-   display: flex;
-	justify-content: center;
-
-    color: black; 
-	z-index: 999;
-}
 #logos
 {
 position: relative;;

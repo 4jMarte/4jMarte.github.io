@@ -891,7 +891,6 @@ font-variant: normal;
 
     color: black; 
 	z-index: 999;
-text-decoration: none;
 }
 #4jmarteFBLI
 {
