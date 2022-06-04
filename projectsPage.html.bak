@@ -44,7 +44,7 @@
 				</div>
 			
 				<div id="lev1B" class="box">
-					<img src="images/unioil.png" alt="image" width="100%" > <!--this is the image -->
+					<img src="images/unioil.PNG" alt="image" width="100%" > <!--this is the image -->
 					
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 			
 			<div id="lev2">
 				<div id="lev2A" class="box">
-					<img src="images/JGSummit.png" alt="image" width="100%" ><!--this is the image -->
+					<img src="images/JGSummit.PNG" alt="image" width="100%" ><!--this is the image -->
 				</div>
 				
 				<div id="lev2B" class="box">	
