@@ -1,79 +1,107 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta charset ="UTF-8">
-	<title>4jmarte website</title>
-	<link rel="stylesheet" href="style.css">
-	</head>
-	
-	<body>
-	<section id ="About">
-		<header><!--This div is for making the navigation bar(header)-->
-			<a href="index.html"><img src="images/4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a> <!--This inserts the logo as a jpeg file-->
-			<nav class="header">
-				<ul id="menu"><!--this division is specifically set to separate the actual navigation links within the header-->
-					
-					<li><a href="index.html">Home</a></li> 
-					<li><a href="servicesPage.html">Services</a></li> <!--this brings users to the Services page -->
-					<li><a href="projectsPage.html">Projects</a></li><!--this brings users to the Projects page -->
-					<li><a href="Contacts.html">Contact</a></li><!--this brings users to the Contact page -->
-				</ul>
-			</nav>
-		</header>
-		
-		<div id="divA">
-			<h2 id="AboutUsLinks">What we do & what we believe in: </h2>
-			<div id="divB">
-				<ul class="image-bullets">
-					<li><a href="#box1aTarget"style="color: black">Mission statement</a></li> <!--I set this line of code and the code below as #Goals, not with their appropriate ID's because those aanchors are way up high the section. setting them as their appropriate anchor will bring you to the same page, it will seem like nothing happened.-->
-					<li><a href="#box1aTarget"style="color: black">Values</a></li> 
-					<li><a href="#Goals"style="color: black">Business goals & objectives</a></li> 
-					<li><a href="#EconomicIntent"style="color: black">Economic intent</a></li> 
-				</ul>   
-			</div>
-		</div>
-	</section>
-		<section id="AboutUsInfo">	
-			<div id="aboutParagraphInfo">
-			<div id="box1aTarget"></div>
-			<br>
-			<br>
-			<br>
-			<br>
-			
-				<div id="box1"> 
-					<div id="box1A">
-						<dt id="MissionStatement">Mission statement</dt>
-							<dd>We provide Consulting Service, and systems engineering works services remotely, via the Internet (WhatsApp, Teams, Zoom or Meet). We also aid on the installation, configuration, deployment, testing and commissioning, production/process equipment and system breakdown support via TeamViewer or AnyDesk remote desktop. </dd>
-							
-					</div>
-					<div id="box1B">
-						<dt id="Values">Values</dt>
-							<dd>We expect to provide the highest quality possible that we can commit to meet our customers’ satisfaction. We also care about our workers by giving them bonuses, perks, and incentives that will make their environment fit for work </dd> 
-					
-					</div>
-				</div>
-			
-				
-				<div id="box2"> 
-					<div id="box2A">
-						<dt id="Goals">Business goals & objectives </dt>
-							<dd>To be one of the leading Industrial Automation remote and field quality assurance engineering service provider in Asia Pacific and Europe </dd> 
-					</div>
-					<div id="box2B">
-						<dt id="EconomicIntent">Economic intent</dt>
-							<dd>This company has a soft spot for young minds who are unable to work in high class companies due to experience and lack of engineering knowledge, and to hone their skills by working for high class companies.				</dl>
-					</div>
-				</div>
-			</div>
-			
-			<div id="Scroll2">
-				<div id="ScrollUp2">
-					<a href="#About"><img src="images/Up.png" alt="click to go up" height="30">
-				</div>
-					<a href="#EconomicIntent"><img src="images/Down.png" alt="scroll down" height="30">
-				</div>
-	</section>
-	
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Automation Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><img src="images/4jmartelogo.jpg" alt="Company Logo" class="logo"></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>4jMarte Industrial Automation</h1>
+        <p>We are a leading industrial automation provider offering remote consulting, system engineering, and support across Asia Pacific and Europe. Committed to excellence, we deliver seamless installation, testing, and troubleshooting, while fostering growth opportunities for emerging engineers.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <img src="images/remote.png" alt="Remote Troubleshooting">
+                <h3>Remote Troubleshooting</h3>
+                <p>With advanced remote control technology, we optimize and resolve issues without needing to be on-site, minimizing downtime.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/calibration.png" alt="Calibration Reports">
+                <h3>technical reports</h3>
+                <p>We provide professionally generated calibration and maintenance reports to ensure processes are documented and meet client specifications.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/maintenance.png" alt="System Installation">
+                <h3>calibration and maintenance</h3>
+                <p>Accurate Calibration and thoroughly revised Maintenance reports, to efficiently and effectively conclude tweaks and changes to the machinery</p>
+            </div>
+            <div class="service-item">
+                <img src="images/cad.png" alt="Configuration Services">
+                <h3>Computer Aided Design</h3>
+                <p>Computer aided design knowledge to simplify graphically intensive problems</p>
+            </div>
+            <div class="service-item">
+                <img src="images/support.png" alt="Testing & Commissioning">
+                <h3>operational support</h3>
+                <p>We can help production plants without the disadvantages of location, by sourcing professional locals near the location's vicinity</p>
+            </div>
+            <div class="service-item">
+                <img src="images/commisioning.png" alt="Maintenance Support">
+                <h3>Installtion and commisioning</h3>
+                <p>We also provide knowledge in installments and maintenance to plant automations and machinery while also be able to commission the project itself</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project-container">
+            <div class="project-item">
+                <img src="images/unioil.png" alt="Project 1">
+                <p>*4jMarte provided Unioil installation and commissioning services. We also provided site acceptance test*</p>
+            </div>
+            <div class="project-item">
+                <video controls><source src="images/video.mp4" type="video/mp4"></video>
+                <p>4jMarte provided one of JG summit's production plant support. Along with that we also installed and commissioned products</p>
+            </div>
+         </div>
+    </section>
+
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contacts">
+    <h3>Follow Us</h3>
+    <div class="social-container">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="images/facebooklogo.png" alt="Facebook Logo" class="social-logo">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="images/linkedinlogo.png" alt="LinkedIn Logo" class="social-logo">
+        </a>
+        <a href="https://www.youtube.com/@AutomationCalibrationPMService" target="_blank">
+            <img src="images/youtubelogo.png" alt="YouTube Logo" class="social-logo">
+        </a>
+    </div>
+</section>
+
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
