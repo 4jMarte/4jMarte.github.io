@@ -202,21 +202,10 @@ ul.image-bullets2
 }
 #divA
 {
-	position: absolute;
-	top: 30%;
-	height: 300px;
-	left: 55%;
-	width: 500px;
-	background-color: rgb(192,208,241, 0.8);
-	list-style-image: url(images/ClickHere.png);
-	vertical-align: top;
-	  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 ;
 
   
@@ -228,13 +217,11 @@ ul.image-bullets2
 }
 #divB
 {
-	position: relative;
-	list-style-image: url(images/ClickHere.png);
-	
-	left: 20%;
-	top: 20%;
-	vertical-align: top;
-	width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 
 }
 #AboutUsLinks
@@ -755,23 +742,31 @@ padding-top: 1%;
 
 
 /* Responsive Design */
+/* Reduce gap on mobile */
 @media (max-width: 768px) {
-    header {
+    #AboutUsInfo {
+        display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+        min-height: 100vh;
     }
 
-    nav ul {
-        flex-direction: column;
+    #divA, #divB, #aboutParagraphInfo {
+        width: 100%;
         padding: 10px;
     }
 
-    nav ul li {
-        margin: 10px 0;
+    #box1, #box2 {
+        flex-direction: column;
+        width: 100%;
     }
 
-    #socials img {
-        width: 60px;
+    dt {
+        font-size: 1.2em;
+    }
+
+    dd {
+        font-size: 1em;
     }
 }
 
